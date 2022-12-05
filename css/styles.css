@@ -70,9 +70,10 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     margin-left: 93px;
 }
 
-.main-nav__site-nav .item + .item {
+.main-nav__site-nav .main-nav__item + .main-nav__item {
     margin-left: 50px;
 }
+
 
 .main-nav__site-nav .main-nav__link {
     position: relative;
@@ -137,11 +138,11 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     gap: 50px;
 }
 
-.info-nav .item {
+.info-nav .info-nav__item {
     margin-left: auto;
 }
 
-.info-nav .link {
+.info-nav .info-nav__link {
     display: flex;
     align-items: center;
 
@@ -158,17 +159,17 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.info-nav-icon-mail, .info-nav-icon-mobile  {
+.info-nav__info-nav-icon-mail, .info-nav__info-nav-icon-mobile  {
     margin-right: 10px;
     fill: currentColor;
 }
 
-.info-nav-icon-mail .info-nav-icon-mobile:hover {
+.info-nav__info-nav-icon-mail .info-nav__info-nav-icon-mobile:hover {
     fill: #2196F3;
 }
 
-.info-nav .link:hover,
-.info-nav .link:focus {
+.info-nav .info-nav__link:hover,
+.info-nav .info-nav__link:focus {
     color: var(--focus-color);
 }
 
