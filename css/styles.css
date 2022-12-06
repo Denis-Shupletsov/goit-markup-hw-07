@@ -284,7 +284,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     gap: 30px;
 }
 
-.quality .quality__section-title--team-quality + .quality__section-title--team-quality {
+.quality .quality__section-title + .quality__section-title {
     margin-right: 30px;
 }
 
@@ -292,7 +292,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     display: block;
 }
 
-.icon__quality-group--icons-qualitys {
+.icon__quality-group {
     display: flex;
     width: 270px;
     height: 120px;
@@ -304,7 +304,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     margin-bottom: 30px;
 }
 
-.quality__section-title--team-quality {    
+.quality__section-title {    
     color: var(--header-section-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -321,7 +321,9 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     line-height: 1.71;
 }
 
-.section-subtitle {
+/* ----------section-subtitle-works--------*/
+
+.section__section-subtitle--section-heading {
     margin-bottom: 50px;
     
     font-weight: 700;
@@ -329,7 +331,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     line-height: 1.17;
     text-align: center;
 }
-/* -------------page -works-----------*/
+
 .page {
     display: flex;
     gap: 30px;
@@ -341,11 +343,11 @@ img {
     height: auto;
 }
 
-.works {
+.page__works {
     position: relative;
 }
 
-.works-applications {
+.page__works-applications {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -439,7 +441,7 @@ img {
     background-color: #2196F3;
 }
 
-.quality-icon {
+.icon {
     fill: currentColor;
 }
 
