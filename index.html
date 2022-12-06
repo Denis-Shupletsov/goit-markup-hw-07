@@ -54,7 +54,7 @@
             </section>
                                         <!-- quality-teams-icon -->
             <section class="section produce">
-                <h1 class="section__quality-teams">Команди якості</h1>
+                <h1 class="quality-teams">Команди якості</h1>
                     <div class="container">
                         <ul class="quality list">
                             <li class="icon__quality">
@@ -388,20 +388,20 @@
                                         <!-- Модальное окно -->
 <div class="backdrop is-hidden"  data-modal>
     <div class="modal">
-        <button type="button" class="button-modal-close" data-modal-close >
+        <button type="button" class="modal__button-modal-close" data-modal-close >
             <svg width="18px" height="18px" class="modal-icon-close">
                 <use href="./img/symbol-defs.svg#icon-close-black-18dp-2-1-1"></use>
             </svg>
         </button>
     
         <form class="modal-form">
-            <p class="modal-form-title">Залиште свої дані, ми вам передзвонимо</p>
+            <p class="modal-form__modal-form-title">Залиште свої дані, ми вам передзвонимо</p>
     
             <div class="modal-form-field">
-                <label class="modal-label">Ім'я
-                    <span class="modal-input-icon">
-                        <input class="modal-input" type="text" name="user-name">
-                            <svg width="18px" height="18px" class="modal-icon-name">
+                <label class="modal-form-field__modal-label">Ім'я
+                    <span class="modal-form-field__modal-input-icon">
+                        <input class="modal-form-field__modal-input" type="text" name="user-name">
+                            <svg width="18px" height="18px" class="modal-form-field__modal-icon-name">
                                 <use href="./img/symbol-defs.svg#icon-person-black-18dp-1"></use>
                             </svg>
                     </span>
@@ -409,10 +409,10 @@
             </div>
 
             <div class="modal-form-field">
-                <label class="modal-label">Телефон
-                    <span class="modal-input-icon">
-                        <input class="modal-input" type="tel" name="user-tel">
-                        <svg width="18px" height="18px" class="modal-icon-name">
+                <label class="modal-form-field__modal-label">Телефон
+                    <span class="modal-form-field__modal-input-icon">
+                        <input class="modal-form-field__modal-input" type="tel" name="user-tel">
+                        <svg width="18px" height="18px" class="modal-form-field__modal-icon-name">
                             <use href="./img/symbol-defs.svg#icon-phone-black-18dp-1"></use>
                         </svg>
                     </span>
@@ -420,10 +420,10 @@
             </div>
 
             <div class="modal-form-field">
-                <label class="modal-label">Пошта
-                    <span class="modal-input-icon">
-                        <input class="modal-input" type="email" name="user-email">
-                        <svg width="18px" height="18px" class="modal-icon-name">
+                <label class="modal-form-field__modal-label">Пошта
+                    <span class="modal-form-field__modal-input-icon">
+                        <input class="modal-form-field__modal-input" type="email" name="user-email">
+                        <svg width="18px" height="18px" class="modal-form-field__modal-icon-name">
                             <use href="./img/symbol-defs.svg#icon-email-black-18dp-1"></use>
                         </svg>
                     </span>
@@ -431,23 +431,23 @@
             </div>
 
             <div class="modal-form-field modal-comment">
-                <label class="modal-label">Коментар
-                    <textarea class="modal-textarea-comment" name="comment" placeholder="Введіть текст"></textarea>
+                <label class="modal-form-field__modal-label">Коментар
+                    <textarea class="modal-form-field__modal-textarea-comment" name="comment" placeholder="Введіть текст"></textarea>
                 </label>
             </div>
 
             
                 <label class="modal-label-checkbox">Погоджуюся з розсилкою та приймаю 
-                    <a class="terms" href="#">Умови договору</a>
+                    <a class="modal-label-checkbox__terms" href="#">Умови договору</a>
                     <span class="checkbox-icon">
-                        <input class="checkbox" type="checkbox" name="topic" value="specific">
-                            <svg width="16px" height="15px" class="modal-icon-checkbox">
+                        <input class="checkbox-icon__checkbox" type="checkbox" name="topic" value="specific">
+                            <svg width="16px" height="15px" class="checkbox-icon__modal-icon-checkbox">
                                 <use href="./img/symbol-defs.svg#icon-icon-check-1"></use>
                             </svg>
                     </span>
                 </label>
                 
-                <button class="form-button" type="submit">Відправити</button>
+                <button class="modal-form__form-button hero__button--button" type="submit">Відправити</button>
         </form>
     </div>
 </div>
