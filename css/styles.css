@@ -44,7 +44,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 }
 
 /* ---------main-nav---------- */
-.page-header__main-nav {
+.main-nav {
     display: flex;
     align-items: center;
 }
@@ -159,12 +159,12 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.info-nav__info-nav-icon-mail, .info-nav__info-nav-icon-mobile  {
+.info-nav__icon-mail, .info-nav__icon-mobile  {
     margin-right: 10px;
     fill: currentColor;
 }
 
-.info-nav__info-nav-icon-mail .info-nav__info-nav-icon-mobile:hover {
+.info-nav__icon-mail .info-nav__icon-mobile:hover {
     fill: #2196F3;
 }
 
@@ -183,7 +183,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     background-position: center;
 }
 
-.hero-title {
+.hero__hero-title {
     width: 696px;
     margin: 0px auto 30px;
 
@@ -195,13 +195,13 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     text-transform: uppercase;
 }
 
-/* ----------button-studio---------- */
+/* ----------hero__button-studio---------- */
 
 .button-portfolio {
     cursor: pointer;
 }
 
-.button {
+.hero__button {
     border: 0;
     border-radius: 4px;
     padding: 10px 30px;
@@ -219,8 +219,8 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero .button:hover,
-.hero .button:focus {
+.hero__button:hover,
+.hero__button:focus {
     opacity: 0.9;
 }
 /* ------------Portfolio---------- */
@@ -265,7 +265,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 }
 
 /* ----------section-quality--------- */
-.quality-teams {
+.section__quality-teams {
     visibility: hidden;
     position: absolute;
 }
@@ -284,15 +284,15 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     gap: 30px;
 }
 
-.quality .section-title + .section-title {
+.quality .quality__section-title--team-quality + .quality__section-title--team-quality {
     margin-right: 30px;
 }
 
-.icon {
+.icon__quality {
     display: block;
 }
 
-.quality-icon-group {
+.icon__quality-group--icons-qualitys {
     display: flex;
     width: 270px;
     height: 120px;
@@ -304,7 +304,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     margin-bottom: 30px;
 }
 
-.section-title {    
+.quality__section-title--team-quality {    
     color: var(--header-section-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -439,7 +439,7 @@ img {
     background-color: #2196F3;
 }
 
-.icon {
+.quality-icon {
     fill: currentColor;
 }
 
