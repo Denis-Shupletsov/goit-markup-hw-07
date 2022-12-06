@@ -264,7 +264,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 }
 
 /* ----------section-quality--------- */
-.section__quality-teams {
+.quality-teams {
     visibility: hidden;
     position: absolute;
 }
@@ -737,7 +737,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     min-width: 200px;
     height: 50px;
     padding: 10px;
