@@ -196,6 +196,9 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 }
 
 /* ----------hero__button-studio---------- */
+.hero__button {
+    padding: 10px 30px;
+}
 
 .hero__button--button {
     justify-content: center;
@@ -204,7 +207,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     border: 0;
     border-radius: 4px;
     cursor: pointer;
-    padding: 10px 30px;
     background-color: var(--focus-color);
 
     color: #FFFFFF;
