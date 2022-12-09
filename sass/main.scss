@@ -1,11 +1,13 @@
-                    // /Переменные/ 
-@import "./utils/variables";
-                // /Стили по умолчанию/ 
-@import "./utils/placeholders";
-                // /Нормализатор/ 
+                    // /Нормализатор/ 
 @import "./base/normalize";
 
-                // Студия
+                    // /Переменные/ 
+@import "./utils/variables";
+
+                    // /Стили по умолчанию/ 
+@import "./utils/placeholders";
+
+                    // Студия
 @import "./components/Studio/page-header";
 @import "./components/Studio/logo";
 @import "./components/Studio/navigation";
