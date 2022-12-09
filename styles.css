@@ -225,18 +225,18 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 } */
 /* ------------Portfolio---------- */
 
-/* .hero-filter {
+.hero-filter {
     padding: 94px 0px;
-} */
+}
 
-/* .filter {
+.filter {
     display: flex;
     justify-content: center;
     gap: 8px;
     margin-bottom: 50px;
-} */
+}
 /* ----------button-portfolio---------- */
-/* .filter__button-portfolio {
+.filter__button-portfolio {
     border: 0;
     border-radius: 4px;
     padding: 6px 22px;
@@ -254,32 +254,32 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 
     /* transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
-/* .filter__button-portfolio:focus,
+.filter__button-portfolio:focus,
 .filter__button-portfolio:hover {
     background-color: var(--focus-color);
     color: var(--main-text-color);
     box-shadow: 0px 3px 1px 0px #0000001A;
-} */
+}
 
 /* ----------section-quality--------- */
 /* .quality-teams {
     visibility: hidden;
     position: absolute;
-} */
+}
 
-/* .section {
+.section {
     padding-top: 94px;
     padding-bottom: 94px;
-} */
+}
 
-/* .produce {
+.produce {
     padding-bottom: 0px;
 } */
 
