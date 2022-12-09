@@ -14,6 +14,7 @@
         color: $main-text-color;
     }
 }
+
 .subscribe-footer-form {
     display: flex;
     justify-content: center;
@@ -21,7 +22,8 @@
 
     &__subscribe-user {
         margin-right: 12px;
-}
+    }
+    
     &__subscribe-footer-input {
         display: flex;
         width: 358px;

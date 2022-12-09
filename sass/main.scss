@@ -3,7 +3,7 @@
                 // /Стили по умолчанию/ 
 @import "./utils/placeholders";
                 // /Нормализатор/ 
-// @import "./base/normalize";
+@import "./base/normalize";
 
                 // Студия
 @import "./components/Studio/page-header";
