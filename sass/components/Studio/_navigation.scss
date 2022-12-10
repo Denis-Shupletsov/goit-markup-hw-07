@@ -66,4 +66,12 @@
     &__link:focus {
         color: $focus-background-color;
     }
+
+    &__site-nav &__link-studio&__link {
+        color: $focus-background-color;
+    }
+        
+}
+.main-nav__site-nav .main-nav__link-portfolio.main-nav__link {
+    color: #2196F3;
 }

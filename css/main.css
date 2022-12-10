@@ -374,6 +374,9 @@ img {
 .main-nav__link:hover, .main-nav__link:focus {
   color: #2196F3;
 }
+.main-nav__site-nav .main-nav__link-studio.main-nav__link {
+  color: #2196F3;
+}
 
 .info-nav {
   display: flex;
