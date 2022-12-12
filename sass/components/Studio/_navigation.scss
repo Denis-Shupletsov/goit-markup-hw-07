@@ -66,4 +66,12 @@
     &__link:focus {
         color: $focus-background-color;
     }
+
+        &__site-nav &__link-studio&__link {
+    color: $focus-background-color;
+    }
+
+        &__site-nav &__link-portfolio &__link {
+    color: $focus-background-color;
+    }
 }
